@@ -1,0 +1,78 @@
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:04:13 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:05:14 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:06:14 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:07:14 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:08:15 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:09:15 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:10:15 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:11:16 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:12:21 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:13:21 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:14:21 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:15:22 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:16:22 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:17:22 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:18:23 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:19:23 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:20:34 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:21:35 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:22:35 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:23:35 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:24:36 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:25:39 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:26:42 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:27:42 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:28:44 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:29:45 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:30:45 2025
+Swap simulated: 0.001 SOL -> SEMD at Mon Apr 28 21:31:45 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:32:57 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:33:57 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:35:02 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:36:03 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:37:03 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:38:03 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:39:04 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:40:04 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:41:04 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:42:05 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:43:05 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:44:05 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:45:06 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:46:06 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:47:06 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:48:07 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:49:07 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:50:07 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:51:10 2025
+Simulated swap: 0.001 SOL -> SEMD at Mon Apr 28 21:52:10 2025
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:53:22 2025 - Signature: 4oWZBL1NibPGMka4pvaUqBJwGAkvZXHLLoih56qH24fjuYLd56Ezt5SKD7LRSrEEZ5qKPx9aQgiok6KwKt5LvaMY
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:54:25 2025 - Signature: 5CRQNWyuwZWbpVJHtspGdc7mXB32vWc4n7EMekfB4Kueze2A4XQBTu5wKM4r2iYVTHfK1opUo3MqoBGjQ9Gu586g
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:55:26 2025 - Signature: 3KySXzoXcrDiLbZZjcjdjcqoq3AAWJg9rbNwmG3ZoDS2MqxMauCZkXaKwBKji6WxNMQZziqRhRSKX2u5QwyX3Nbn
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:56:28 2025 - Signature: 4ERQMw6Rm188MA7fNb9U64XMHCMZtU9mQ3iQcg36mwXVTyPGjMPzPhXNKqUKRtVx5PEg7RUdPvWx9nGgyYKTCpA9
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:57:31 2025 - Signature: SCPyWxLVdBDZxaXvpth8NCBjcqKo5LbHvU7yinqdTaPTMEF899ACLJb9EusJpEqmuokH9ZoNJsrYMUqqu82dXfi
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:58:43 2025 - Signature: 3WZmTjKBc8AJrWSCq6Fv4hTUiFpjdbM9qkY2bqUhjfjuUkjD1bGeYEZTBob81STFb9D8Mvbm62CqDRX8PvC2yRjv
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 21:59:44 2025 - Signature: 2v5P5Nh95rw7MpHgimRYe3obmu3EnmG5jkDs6C29TtUq27sW9d5je7pHAVq2hcMtn9ZdFrVRUGKLzVrCeRjtUYRU
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:00:45 2025 - Signature: 2offQhq75yyoKj4ixLXkbGTLK9tSnoF5XKQxEumAecxqGFR7RyidCfqFJxxmupS7PftoVEnBUqVorQkok8Ek9vAt
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:01:45 2025 - Signature: 5RRAq7RzxiiCbudsy2dTbA2mAKpjWHMSVi22JRkmonowxGx4ArM7XKh5p1W1wAFhLJ3HbjHbcMUNvM7kePCQKdyh
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:02:46 2025 - Signature: 4rBK4d1Z6F5gvzBjQXkTe2ob6YDuk6CWzLtyJYcYqfGmjSyZV3yTvztM74C6Yaa8R4GdNJGoSoAebmiL5wCpkKwz
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:03:47 2025 - Signature: 4NCf6NsmHiQ59khkUCD6PxmDLx1Jbnqfhb1KVFE6xQcbVPaX1GJxNVjn32Kx6RoYMqU86bw4Dyn6dpoodxgDpARU
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:04:48 2025 - Signature: 4UaPcD21cejmzxmePAK4DYTgQW9WqXcymRRnpEuBb9HLtWJUtZuSc7mJBbp4qaozwvsEfENoNrn51HaXMCa9YLf7
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:05:52 2025 - Signature: 4sV5BaTXv9BBQe24qYaE576WdNKZZfPsgzqh3pySkyxZEcKCtpQU7apok6cV63pw79Qthg6jMTKibFUUzUAKGVju
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:07:24 2025 - Signature: 2Agcqe1ynDYUvFw5tJoumcoQ51hpgkCJ3D5ajHvEv56XqL1nMYSnJa7T2cA4cRFJGrwGfYAFuisp4J649LmsQd5V
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:08:25 2025 - Signature: vfTsEBENT3LpJ7D2aBSP5wq8MGgno6mhEuTRFSJBtFBLeDYeoWNYNH16rnwZbahdhv3NCxjY2NgovZJbasAc8oR
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:09:28 2025 - Signature: 4nuNQouASd6gBVEvs6xWtgzR1ccseZ7fUgeQiubBkUqe6ZaaKRu9BjvjbrZsbnuPJQYkkfExsprFm86Cmyrv9eou
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:10:29 2025 - Signature: kjxfs7rd69ped5PRYpk9DcknEBhcYuDreEZ4KHQey5aVPhHUTLrMCzUw2haKyiDDs8s6nPQZNQ3gNoJWLn58XPQ
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:11:30 2025 - Signature: x9mUhyrX9HRLkzVoa4uptXj1E4jKZXt6WQTu8TdMRpK7HcugN9m9P25quZJHyZxQAVwKdWjFAFkQCKvHoMna5GN
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:12:31 2025 - Signature: 5uWo8XSZTaUvPGEt6tnE8wkA8epw9eRaqTqppsJuthWNm7NHsk9FN2ytfqQpyWTpuZRAfHovVisTjFZaGHyWrGgV
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:13:33 2025 - Signature: 4MtbKo5T1aohER6dteif9v4wHFytDPtjWKMkvdVYhonHTsUoEZNLutDRNjy4V1Yxvm3AYDBDwEufFhYfq9hhbmJo
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:14:34 2025 - Signature: 4fBVMTRo9EqTjUVsTXWqBhexUgivGTERDZjDv2m3cnU66irHGfKoSAL7Q2NavgzXkwrhXG7Lk8SpZ6UxkkVkRHt4
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:15:34 2025 - Signature: 2UnbQVsY1cFnKK2DfPHkbNk3REfo4SowDuXkiKPqvYUkfrn9rrrhsttqj74amG69JP4K2tcqVHJpBP6rU3pcNzrP
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:16:47 2025 - Signature: 3wQFA2Dq2R2Tm3XoStscn5Vkau8EFpfChLeGrzgMEdXu9VPqW6Jes1nAZj6ZYoU23PG2svEbLLnSj4kQ4qoocpbe
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:17:49 2025 - Signature: 2TM5ZXA2ELkaRGptju7Poz3zdCPR4RCN3D1m5ki25kop33mCDJQhHNMCvYTrkhS6ZChgJHqpZer8XRT9UiG1hxqC
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:18:50 2025 - Signature: 4imgMhVTRsDd91WMsPHnRDjcjN8Ab4TdzUzCgigDkZP5d37hDaSv8siiKcvkTBUXMDD5k41CwxSeWgtuHg1dvmod
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:19:51 2025 - Signature: 2ivV7wFshRwgrzyX3s5ASZK6PN9cK8NA9QNmZPmjW9LSLv8abbxfNZQXpokafhLQju9r31PMsWDJH7TN7XWLDLxs
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:20:52 2025 - Signature: 5P5xbFbGdWr4YGhfTrAQyQmDzGgaXpnUUeanv8WN88QSsSohT3ffHogbc6MH6HKMgqoKcffsCLQkq5MyH9f3gfHK
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:21:53 2025 - Signature: 3q3GXwU4cfqf3HtFxQsZsZFRWaX13T7rUk85yHZbvWBcwKfHA6ybcNek9XXe7XUunC26FPqyLQRLes9yhSFD2iZb
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:22:54 2025 - Signature: 24ryECgU1CXZWaFDi1f3KFGyJwUin3cJz51DneacerjAYqWzoCnmgtAz3hY3BgUmUSeexNkHw3DNNKwhRkY41P3t
+Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:23:55 2025 - Signature: 3M5oziFRyRRVJBzfLGaoB2hQs2aQgE5sjTZXrngLDCuthDeig2AhPySSkntezteKoLV96sXnZas675dEzAXktTYn
