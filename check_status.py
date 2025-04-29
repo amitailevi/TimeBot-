@@ -1,41 +1,49 @@
-import requests
-from solana.publickey import PublicKey
-from solana.rpc.api import Client
+from solana.rpc.api    import Client
+from solana.publickey  import PublicKey
+from solana.rpc.types  import TokenAccountOpts
 
-# כתובת ארנק הבוט
-BOT_WALLET = "9moqeCc6bcgMwebTAJucTVwehFBf94tiFG169soSfmF4"
+#–––– CONFIG ––––
+RPC_URL           = "https://api.mainnet-beta.solana.com"
+BOT_WALLET        = "9moqeCc6bcgMwebTAJucTVwehFBf94tiFG169soSfmF4"
+SEMD_MINT_ADDRESS = "J9DuBB7AFtjwiX2nJbZ1DwHhpnoDBvFtzc8KLscB5Bq1"
+POOL_ADDRESS      = "Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM"
 
-# כתובת טוקן SEMD
-SEMD_TOKEN_ADDRESS = "J9DuBB7AFtjwiX2nJbZ1DwHhpnoDBvFtzc8KLscB5Bq1"
+#–––– SETUP ––––
+client     = Client(RPC_URL)
+wallet_pk  = PublicKey(BOT_WALLET)
+mint_pk    = PublicKey(SEMD_MINT_ADDRESS)
+pool_pk    = PublicKey(POOL_ADDRESS)
 
-# חיבור לרשת הראשית של Solana
-client = Client("https://api.mainnet-beta.solana.com")
+#–––– HELPERS ––––
+def get_wallet_balance(pubkey: PublicKey) -> float:
+    """מחזיר את יתרת ה-SOL ב-PUBLIC KEY (כעשרוני)."""
+    resp = client.get_balance(pubkey)
+    # כאן השתנו הקריאות: עכשיו משתמשים ב-.value
+    return resp.value / 1_000_000_000
 
-def get_wallet_balance(wallet_address):
-    response = client.get_balance(PublicKey(wallet_address))
-    sol_balance = response['result']['value'] / 1_000_000_000  # להמיר ל-SOL
-    return sol_balance
+def get_semd_balance(pubkey: PublicKey) -> float:
+    """מחזיר סך כל מטבעות SEMD בארנק."""
+    opts = TokenAccountOpts(mint=mint_pk, encoding="jsonParsed")
+    resp = client.get_token_accounts_by_owner(pubkey, opts)
+    accounts = resp.value
+    return sum(
+        acc["account"]["data"]["parsed"]["info"]["tokenAmount"]["uiAmount"]
+        for acc in accounts
+    )
 
-def get_token_balance(wallet_address, token_address):
-    url = f"https://public-api.solscan.io/account/tokens?account={wallet_address}"
-    headers = {"accept": "application/json"}
-    response = requests.get(url, headers=headers)
-    tokens = response.json()
-    for token in tokens:
-        if token['tokenAddress'] == token_address:
-            return float(token['tokenAmount']['uiAmount'])
-    return 0
+def get_pool_balance(pubkey: PublicKey) -> float:
+    """מחזיר את יתרת ה-SOL בבריכה."""
+    resp = client.get_balance(pubkey)
+    return resp.value / 1_000_000_000
 
-# בדיקות
-print("🔎 Checking wallet and token balances...")
+#–––– MAIN STATUS CHECK ––––
+if __name__ == "__main__":
+    print("🔎 Checking wallet and token balances...")
 
-# 1. בדיקת יתרת SOL בארנק
-sol_balance = get_wallet_balance(BOT_WALLET)
-print(f"✅ SOL Balance in bot wallet: {sol_balance} SOL")
+    sol_balance  = get_wallet_balance(wallet_pk)
+    semd_balance = get_semd_balance(wallet_pk)
+    pool_sol     = get_pool_balance(pool_pk)
 
-# 2. בדיקת יתרת SEMD בארנק
-semd_balance = get_token_balance(BOT_WALLET, SEMD_TOKEN_ADDRESS)
-print(f"✅ SEMD Balance in bot wallet: {semd_balance} SEMD")
-
-# 3. בדיקת יתרת SEMD בבריכה (נבנה בהמשך בדיקה יותר מדויקת לבריכה)
-print("\n📢 המשך הבדיקה - נבדוק את מצב הבריכה בעוד רגע!")
+    print(f"💰 Bot SOL Balance: {sol_balance:.6f} SOL")
+    print(f"💰 Bot SEMD Balance: {semd_balance:.4f} SEMD")
+    print(f"💧 Pool SOL Balance: {pool_sol:.6f} SOL")
