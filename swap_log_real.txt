@@ -76,3 +76,22 @@ Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 2
 Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:21:53 2025 - Signature: 3q3GXwU4cfqf3HtFxQsZsZFRWaX13T7rUk85yHZbvWBcwKfHA6ybcNek9XXe7XUunC26FPqyLQRLes9yhSFD2iZb
 Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:22:54 2025 - Signature: 24ryECgU1CXZWaFDi1f3KFGyJwUin3cJz51DneacerjAYqWzoCnmgtAz3hY3BgUmUSeexNkHw3DNNKwhRkY41P3t
 Swap 0.001 SOL -> Pool Emc6UyFghkRpuXbfqc6TeRuLpU9ZsZT7ypPj1XqpVkEM at Mon Apr 28 22:23:55 2025 - Signature: 3M5oziFRyRRVJBzfLGaoB2hQs2aQgE5sjTZXrngLDCuthDeig2AhPySSkntezteKoLV96sXnZas675dEzAXktTYn
+
+// סטטוס ודוגמאות סטטיות
+document.getElementById('bot-status').innerText = "פעיל ✅";
+document.getElementById('sol-balance').innerText = "2.5";
+document.getElementById('semd-balance').innerText = "3500";
+
+// עסקאות לדוגמה
+const transactions = [
+    { action: "SWAP", amount: "0.001 SOL → 1.5 SEMD", date: "2024-06-01 12:00" },
+    { action: "SWAP", amount: "0.001 SOL → 1.4 SEMD", date: "2024-06-01 11:00" },
+    { action: "DEPOSIT", amount: "0.5 SOL", date: "2024-05-31 18:30" }
+];
+
+const tbody = document.getElementById('transactions');
+transactions.forEach(tx => {
+    const row = document.createElement('tr');
+    row.innerHTML = `<td>${tx.action}</td><td>${tx.amount}</td><td>${tx.date}</td>`;
+    tbody.appendChild(row);
+});

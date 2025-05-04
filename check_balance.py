@@ -1,29 +1,31 @@
-from solana.rpc.api    import Client
-from solana.publickey  import PublicKey
-from solana.rpc.types  import TokenAccountOpts
+import webbrowser
+from flask import Flask, jsonify
+from flask_cors import CORS
+from real_swap import execute_swap
+import os
 
-RPC_URL           = "https://api.mainnet-beta.solana.com"
-WALLET_ADDRESS    = "9moqeCc6bcgMwebTAJucTVwehFBf94tiFG169soSfmF4"
-SEMD_MINT_ADDRESS = "J9DuBB7AFtjwiX2nJbZ1DwHhpnoDBvFtzc8KLscB5Bq1"
+file_path = os.path.abspath('frontend/dashboard.html')
+webbrowser.open(f'file://{file_path}')
 
-client    = Client(RPC_URL)
-wallet_pk = PublicKey(WALLET_ADDRESS)
-mint_pk   = PublicKey(SEMD_MINT_ADDRESS)
+app = Flask(__name__)
+CORS(app)
 
-opts = TokenAccountOpts(
-    mint     = mint_pk,
-    encoding = "jsonParsed",
-)
+@app.route("/status")
+def status():
+    return jsonify({
+        "status": "מוכן ✅",
+        "sol": 2.34,
+        "semd": 5430,
+        "last_tx": "טרם בוצע"
+    })
 
-# קריאה חדשה – מחזירה GetTokenAccountsByOwnerResp עם שדה .value
-resp     = client.get_token_accounts_by_owner(wallet_pk, opts)
-accounts = resp.value
+@app.route("/run-bot")
+def run_bot():
+    try:
+        tx_signature = execute_swap()
+        return jsonify({"success": True, "tx": tx_signature})
+    except Exception as e:
+        return jsonify({"success": False, "error": str(e)})
 
-if not accounts:
-    print("🔎 No SEMD tokens found in this wallet.")
-else:
-    total = sum(
-        acc["account"]["data"]["parsed"]["info"]["tokenAmount"]["uiAmount"]
-        for acc in accounts
-    )
-    print(f"💰 SEMD balance in wallet: {total} SEMD")
+if __name__ == "__main__":
+    app.run(debug=True) 

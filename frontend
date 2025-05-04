@@ -1,0 +1,17 @@
+mkdir backend frontend logs
+
+mv check_balance.py backend/
+mv check_semd_balance.py backend/
+mv check_pool_balance.py backend/
+mv check_status.py backend/
+mv real_swap.py backend/
+mv swap.py backend/
+mv wallet.json backend/
+mv config.py backend/
+mv create_wallet.py backend/
+
+mv swap_log.txt logs/
+mv swap_log_real.txt logs/
+
+cd backend
+python api.py

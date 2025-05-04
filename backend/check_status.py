@@ -1,6 +1,9 @@
 from solana.rpc.api    import Client
 from solana.publickey  import PublicKey
 from solana.rpc.types  import TokenAccountOpts
+from check_balance import get_wallet_balance
+from check_semd_balance import get_semd_balance
+from check_pool_balance import get_pool_balance
 
 #–––– CONFIG ––––
 RPC_URL           = "https://api.mainnet-beta.solana.com"
@@ -37,7 +40,7 @@ def get_pool_balance(pubkey: PublicKey) -> float:
     return resp.value / 1_000_000_000
 
 #–––– MAIN STATUS CHECK ––––
-if __name__ == "__main__":
+def main():
     print("🔎 Checking wallet and token balances...")
 
     sol_balance  = get_wallet_balance(wallet_pk)
@@ -47,3 +50,6 @@ if __name__ == "__main__":
     print(f"💰 Bot SOL Balance: {sol_balance:.6f} SOL")
     print(f"💰 Bot SEMD Balance: {semd_balance:.4f} SEMD")
     print(f"💧 Pool SOL Balance: {pool_sol:.6f} SOL")
+
+if __name__ == "__main__":
+    main()
