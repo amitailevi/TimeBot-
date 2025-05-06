@@ -1,0 +1,3 @@
+"""
+TimeBot package initialization.
+""" 

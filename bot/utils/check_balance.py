@@ -3,12 +3,18 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 from real_swap import execute_swap
 import os
+import json
 
 file_path = os.path.abspath('frontend/dashboard.html')
 webbrowser.open(f'file://{file_path}')
 
 app = Flask(__name__)
 CORS(app)
+
+def get_wallet_address():
+    with open('wallet.json', 'r') as f:
+        wallet = json.load(f)
+    return wallet['public_key']
 
 @app.route("/status")
 def status():
