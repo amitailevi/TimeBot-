@@ -67,3 +67,5 @@ SEMD-Project/
 2. Move existing files to appropriate locations
 3. Create placeholder files for new structure
 4. Update README.md with new project information 
+
+✔️ Python 3.12 פעיל 
